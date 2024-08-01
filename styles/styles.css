@@ -1,0 +1,414 @@
+
+
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+    gap: 0%;
+}
+          /* navbar star  */
+.logo-item{
+    width: 165px;
+    margin-right: 20px;
+    gap: 5px;
+    margin-left: 30px;
+}
+.nav-item{
+    font-size: 1.6rem;
+    gap: 35px;
+}
+.navbar{
+    padding: 20px;
+}
+.franchise-btn{
+    border: 1px solid #ffffff;
+    background-color: #000000;
+    border-radius: 30px;
+    padding: 12px 16.5px 12px 16.5px;
+    font-size: 1.6rem;
+}
+.order-btn{
+    border: none;
+    background-color: #ed1c24;
+    border-radius: 30px;
+    padding: 20px 25px;
+    font-size: 1.6rem;
+}
+.circle-btn{
+    background-color: #ffffff;
+    color: #ed1c24;
+    border-radius: 50px;
+    padding: 5px 5px;
+}
+.text-none{
+    @font-face {
+        font-family: "apercu-Bold";
+        src: url(../fonts/Apercu\pro\ Bold.otf);
+    }
+    font-size: 16px;
+}
+
+/* navbar end  */
+
+       
+/* carouisel start  */
+.carouisel{
+    background-size: cover;
+    width: 100%;
+}
+
+/* carouisel end  */
+
+   /* main start  */
+.main custom heading,h2{
+    font-size: 25px;
+    line-height: 50px;
+    font-weight: 400px;
+    font-style: normal;
+    text-align: center;
+    @font-face{
+        font-family: "apercu-medium";
+        src: url(../fonts/Apercu\ Medium.otf);}
+
+
+    }
+    .logo-text{
+        line-height: 50px;
+        font-weight: 700px;
+        font-size: 50px;
+        @font-face {
+            font-family: "apercu-Bold";
+            src: url(../fonts/Apercu\pro\ Bold.otf);
+        }
+    }
+.paragraph{
+    text-align: center;
+    margin-left: 25px;
+    font-size: 20px;
+}
+   /* image section start */
+.image1{
+    width: 300px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    padding: 5px;
+    margin-left: 90px;
+}
+.image3{
+    width: 300px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    padding: 5px;
+    margin-left: 50px;
+}
+.image2{
+    width: 300px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    padding: 5px;
+    margin-left: 40px;
+}
+.c-1{
+    background-color: #000000;
+    border-radius: 30px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 12px 16.5px 12px 16.5px;
+    margin-left: 150px;
+
+}
+.c-2{
+    background-color: #000000;
+    border-radius: 30px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 12px 16.5px 12px 16.5px;
+    margin-left: 300px;
+
+}
+.c-3{
+    background-color: #000000;
+    border-radius: 30px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 12px 16.5px 12px 16.5px;
+    margin-left: 200px;
+}
+
+       /* image section end */
+
+       /* <!-------------- Restaurant Franchises start ---------------> */
+.paragraph1{
+    text-align: center;
+    margin-left: 25px;
+    font-size: 20px;
+}
+ 
+.islamabad{
+    font-size: 15px;
+    display: block;
+    margin:50px ;
+
+}
+.p-3{
+    color: #ed1c24;
+    margin-left: 150px;
+    margin-right: 20px;
+    font-size: 50PX;
+    margin-right: 100PX;
+}
+
+.get-direction{
+    border: 1px solid #ffffff;
+    background-color: #000000;
+    border-radius: 30px;
+    padding: 12px 16.5px 12px 16.5px;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+.faislabad{
+    display: flex;
+    gap: 150px;
+    
+}
+.islamabad{
+    display: flex;
+     gap: 150px;
+}
+.h1{
+    font-size: 20px;
+}
+.childern1{
+    font-size: 20px;
+    
+}
+.bahawalpure{
+    display: flex;
+    gap: 150px;
+}
+.parent2{
+    font-size: 18px;
+    margin-left: 50px;
+}
+.logo-retaurant{
+    font-size: 70px;
+}
+
+           /* <!-------------- Restaurant Franchises end ---------------> */
+
+        /* <!--------------- Express Franchises stat  ---------------->  */
+        .get-direction{
+            border: 1px solid #ffffff;
+            background-color: #000000;
+            border-radius: 50px;
+            padding: 12px 16.5px 12px 16.5px;
+            font-size: 1.6rem;
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        .salt-cards {
+            background-color: #000;
+            color: #fff;
+            padding: 50px 150px;
+        }
+        
+        .salt-cards h1{
+            text-align: center;
+            font-family: 'butler';
+            font-size: 50px;
+        }
+        
+        .salt-card-col {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin: 50px 0px;
+        }
+        
+        .salt-card-1 {
+            width: 30%;
+            margin: auto;
+        }
+        
+        .salt-card-1 img{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        
+        .salt-card-1 p{
+            text-align: center;
+        }
+        
+        .salt-card-1 h1{
+            font-size: 30px;
+        }
+        
+        .salt-card-1 h1 span{
+            font-size: 30px;
+        }
+        
+        .salt-card-1 p , .salt-card-1 p a{
+            display: flex;
+            gap: 10px;
+            color: #a09a9a;
+            justify-content: center;
+            text-decoration: none;
+        }
+        
+        .salt-card-1 button{
+            margin: auto;
+        }
+        
+        .village{
+            /* padding: 80px 0px; */
+            color: #fff;
+            background-color: #000000;
+            margin: 0%;
+            width: 100%;
+            padding: 10px 10px 10px 10px;
+            background-size: cover;
+           
+        }
+        
+        .village h1{
+            font-size: 50px;
+            font-family: "butler";
+            text-align: center;
+            font-weight: 100;
+        }
+        
+        .village-col {
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            margin: 50px 0px;
+            width: 100%;
+
+        }
+        
+        .village-image {
+            width: 100%;
+        }
+        
+        .village-image img{
+            width: 100%;
+        }
+        
+        .village-content h1{
+            text-align: left;
+            font-size: 30px;
+        }
+        
+        .village-content h1 span{
+            font-size: 40px;
+        }
+        
+        .village-content p , .village-content p a{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: #9c9898;
+            margin: 10px 0px;
+        }
+        
+        .village-content button{
+            background-color: #28a745;
+            border-color: #28a745;
+            padding: 10px;
+            border-radius: 30px;
+        }
+        .location-sec {
+            background-color: #000;
+            padding: 80px 150px;
+        }
+        
+        .location-sec h1{
+            text-align: center;
+            font-family: 'butler';
+            font-weight: 500;
+        }
+        
+        .location-card-col {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .location-card {
+            width: 30%;
+            color: #000000;
+            background-color: #fff;
+            padding: auto;
+            text-align: center;
+            border-radius: 20px;
+            
+        }
+        .small-red{
+            color: red;
+              
+        }
+        
+        .location-card img{
+            margin-bottom: 30px;
+        }
+        
+        .location-card h1{
+            font-size: 21px;
+            font-family: 'Apercu';
+        }
+        
+        .location-card h1 span{
+            font-size: 24px;
+        }
+        
+        .social {
+            background-color: #000;
+            color: #fff;
+            padding: 50px 0px;
+        }
+        
+        .social h1{
+            text-align: center;
+            font-family: 'butler';
+        }
+        
+        .social-column {
+            display: flex;
+            gap: 20px;
+            padding: 0px 20px;
+        }
+        
+        .social-img {
+            width: 20%;
+            justify-content: center;
+        }
+        
+        .social-img img{
+            width: 100%;
+        }
+        
+      .font-size-1{
+        font-size: 30px;
+      }
+.font-size2-text-gray{
+    font-size: 12px;
+
+}
+   /* main end  */
+
+
+
+
+

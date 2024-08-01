@@ -1,0 +1,96 @@
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+    gap: 0%;
+}
+          /* navbar star  */
+.logo-item{
+    width: 165px;
+    margin-right: 20px;
+    gap: 5px;
+    margin-left: 30px;
+}
+.nav-item{
+    font-size: 1.6rem;
+    gap: 35px;
+}
+.navbar{
+    padding: 20px;
+}
+.franchise-btn{
+    border: 1px solid #ffffff;
+    background-color: #000000;
+    border-radius: 30px;
+    padding: 12px 16.5px 12px 16.5px;
+    font-size: 1.6rem;
+}
+.order-btn{
+    border: none;
+    background-color: #ed1c24;
+    border-radius: 30px;
+    padding: 20px 25px;
+    font-size: 1.6rem;
+}
+.circle-btn{
+    background-color: #ffffff;
+    color: #ed1c24;
+    border-radius: 50px;
+    padding: 5px 5px;
+}
+.text-none{
+    @font-face {
+        font-family: "apercu-Bold";
+        src: url(../fonts/Apercu\pro\ Bold.otf);
+    }
+    font-size: 16px;
+}
+
+/* navbar end  */
+
+/* CUROSEL PIC CSS START */
+
+
+.bg-image{
+    background-image: url("https://static.tossdown.com/site/4beaa66e-dda0-460b-84e4-640fa692e00e.webp");
+   
+    width: 100%;
+    height: 720px;
+}
+
+
+.position-rel{
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    
+}
+
+/* CUROSEL PIC CSS END */
+
+
+input{
+    width: 200px;
+    height: 50px;
+}
+.button{
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 2remj;
+    padding: 15px;
+    border: 1px soliud #ffffff;
+    border-radius: 10px;
+}
+/* <!-- CUROSEL PIC START -->  */
+.font-size5{
+    font-size: 30px;
+}
+.font-size12{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.font-size4{
+    font-size: 2rem;
+}
+/* <!-- CUROSEL PIC END -->  */
+

@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Font start */
+@font-face{
+    font-family: "apercu-light";
+    src: url(../fonts/Apercu\ Light.otf);
+}
+@font-face{
+    font-family: "apercu-medium";
+    src: url(../fonts/Apercu\ Medium.otf);
+}
+@font-face {
+    font-family: "apercu-Bold";
+    src: url(../fonts/Apercu\pro\ Bold.otf);
+}
+/* Font end */
+
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
+:root{
+    --red: #fe0606
+    --white: #ffffff
+    --black: #000000 
+    --green: #198b17
+}
+
+
+/* utility classes start */
+
+/* display flex start */
+.d-flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-evenly{
+    justify-content: space-evenly;
+}
+.item-center{
+    align-items: center;
+}
+.gap-1{
+    gap: 5px;
+}
+.gap-2{
+    gap: 10px;
+}
+.gap-3{
+    gap: 15px;
+}
+.gap-4{
+    gap: 20px;
+}
+.gap-5{
+    gap: 25px;
+}
+.m-1{
+    margin: 5px;
+}
+.ml-1{
+    margin: 0px 5px;
+
+}
+.mt-1{ 
+    margin: 10px 0px;
+
+}
+/* display flex end */
+
+
+/* text-decoration */
+ .text-none{
+    text-decoration: none;
+    color: #ffffff
+ }
+
+
+/* utility classes end */
